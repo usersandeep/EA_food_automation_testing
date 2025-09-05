@@ -1,0 +1,309 @@
+{
+  "products": [
+    {
+      "id": "p1",
+      "name": "Organic Rice 5kg",
+      "price": 450,
+      "stock": 0
+    },
+    {
+      "id": "p2",
+      "name": "Cold-pressed Oil 1L",
+      "price": 250,
+      "stock": 1
+    },
+    {
+      "id": "p3",
+      "name": "Whole Wheat Flour 2kg",
+      "price": 120,
+      "stock": 4
+    },
+    {
+      "id": "p4",
+      "name": "Paneer 400g",
+      "price": 160,
+      "stock": 2
+    },
+    {
+      "id": "p5",
+      "name": "Fresh Milk 1L",
+      "price": 60,
+      "stock": 30
+    },
+    {
+      "id": "p6",
+      "name": "Eggs (6)",
+      "price": 70,
+      "stock": 12
+    },
+    {
+      "id": "p7",
+      "name": "Sugar 1kg",
+      "price": 45,
+      "stock": 8
+    },
+    {
+      "id": "p8",
+      "name": "Salt 1kg",
+      "price": 25,
+      "stock": 2
+    },
+    {
+      "id": "p9",
+      "name": "Spices Pack",
+      "price": 199,
+      "stock": 6
+    },
+    {
+      "id": "p10",
+      "name": "Green Tea Box",
+      "price": 299,
+      "stock": 8
+    }
+  ],
+  "orders": [
+    {
+      "id": "o1757064411701",
+      "productId": "p1",
+      "qty": 1,
+      "slot": "Morning",
+      "deliveryDate": "2025-09-07",
+      "status": "Scheduled",
+      "createdAt": "2025-09-05T09:26:51.700Z"
+    },
+    {
+      "id": "o1757064425061",
+      "productId": "p1",
+      "qty": 1,
+      "slot": "Morning",
+      "deliveryDate": "2025-09-07",
+      "status": "Scheduled",
+      "createdAt": "2025-09-05T09:27:05.060Z"
+    },
+    {
+      "id": "o1757064464484",
+      "productId": "p1",
+      "qty": 1,
+      "slot": "Morning",
+      "deliveryDate": "2025-09-06",
+      "status": "Scheduled",
+      "createdAt": "2025-09-05T09:27:44.481Z"
+    },
+    {
+      "id": "o1757065937830",
+      "productId": "p5",
+      "qty": 2,
+      "slot": "Morning",
+      "deliveryDate": "2025-09-06",
+      "status": "Scheduled",
+      "createdAt": "2025-09-05T09:52:17.828Z"
+    },
+    {
+      "id": "o1757065957175",
+      "productId": "p5",
+      "qty": 2,
+      "slot": "evening",
+      "deliveryDate": "2025-09-06",
+      "status": "Scheduled",
+      "createdAt": "2025-09-05T09:52:37.174Z"
+    },
+    {
+      "id": "o1757066064512",
+      "productId": "p5",
+      "qty": 2,
+      "slot": "afternoon",
+      "deliveryDate": "2025-09-06",
+      "status": "Scheduled",
+      "createdAt": "2025-09-05T09:54:24.511Z"
+    },
+    {
+      "id": "o1757066104398",
+      "productId": "p5",
+      "qty": 2,
+      "slot": "evening",
+      "deliveryDate": "2025-09-06",
+      "status": "Scheduled",
+      "createdAt": "2025-09-05T09:55:04.397Z"
+    },
+    {
+      "id": "o1757066112238",
+      "productId": "p5",
+      "qty": 2,
+      "slot": "evening",
+      "deliveryDate": "2025-09-06",
+      "status": "Scheduled",
+      "createdAt": "2025-09-05T09:55:12.237Z"
+    },
+    {
+      "id": "o1757066123273",
+      "productId": "p5",
+      "qty": 2,
+      "slot": "evening",
+      "deliveryDate": "2025-09-06",
+      "status": "Scheduled",
+      "createdAt": "2025-09-05T09:55:23.272Z"
+    },
+    {
+      "id": "o1757066132883",
+      "productId": "p5",
+      "qty": 2,
+      "slot": "evening",
+      "deliveryDate": "2025-09-06",
+      "status": "Scheduled",
+      "createdAt": "2025-09-05T09:55:32.883Z"
+    },
+    {
+      "id": "o1757066322571",
+      "productId": "p8",
+      "qty": 2,
+      "slot": "evening",
+      "deliveryDate": "2025-09-06",
+      "status": "Scheduled",
+      "createdAt": "2025-09-05T09:58:42.567Z"
+    },
+    {
+      "id": "o1757066904973",
+      "productId": "p2",
+      "qty": 1,
+      "slot": "evening",
+      "deliveryDate": "2025-09-06",
+      "status": "Scheduled",
+      "createdAt": "2025-09-05T10:08:24.970Z"
+    },
+    {
+      "id": "o1757066927336",
+      "productId": "p1",
+      "qty": 1,
+      "slot": "evening",
+      "deliveryDate": "2025-09-06",
+      "status": "Scheduled",
+      "createdAt": "2025-09-05T10:08:47.335Z"
+    },
+    {
+      "id": "o1757067048648",
+      "productId": "p5",
+      "qty": 1,
+      "slot": "evening",
+      "deliveryDate": "2025-09-07",
+      "status": "Scheduled",
+      "createdAt": "2025-09-05T10:10:48.644Z"
+    },
+    {
+      "id": "o1757067140556",
+      "productId": "p5",
+      "qty": 1,
+      "slot": "evening",
+      "deliveryDate": "2025-09-06",
+      "status": "Scheduled",
+      "createdAt": "2025-09-05T10:12:20.553Z"
+    },
+    {
+      "id": "o1757067267311",
+      "productId": "p5",
+      "qty": 1,
+      "slot": "morning",
+      "deliveryDate": "2025-09-07",
+      "status": "Scheduled",
+      "createdAt": "2025-09-05T10:14:27.303Z"
+    },
+    {
+      "id": "o1757075337605",
+      "productId": "p1",
+      "qty": 1,
+      "slot": "midnight",
+      "deliveryDate": "2025-09-07",
+      "status": "delievred",
+      "createdAt": "2025-09-05T12:28:57.604Z"
+    },
+    {
+      "id": "o1757075337786",
+      "productId": "p1",
+      "qty": 1,
+      "slot": "morning",
+      "deliveryDate": "2025-09-07",
+      "status": "delievred",
+      "createdAt": "2025-09-05T12:28:57.786Z"
+    },
+    {
+      "id": "o1757075337849",
+      "productId": "p1",
+      "qty": 0,
+      "slot": "morning",
+      "deliveryDate": "2025-09-07",
+      "status": "delievred",
+      "createdAt": "2025-09-05T12:28:57.848Z"
+    },
+    {
+      "id": "o1757075631385",
+      "productId": "p1",
+      "qty": 0,
+      "slot": "morning",
+      "deliveryDate": "2025-09-07",
+      "status": "delievred",
+      "createdAt": "2025-09-05T12:33:51.384Z"
+    },
+    {
+      "id": "o1757076130099",
+      "productId": "p1",
+      "qty": 0,
+      "slot": "morning",
+      "deliveryDate": "2025-09-07",
+      "status": "delievred",
+      "createdAt": "2025-09-05T12:42:10.098Z"
+    },
+    {
+      "id": "o1757076183173",
+      "productId": "p1",
+      "qty": 0,
+      "slot": "morning",
+      "deliveryDate": "2025-09-07",
+      "status": "delievred",
+      "createdAt": "2025-09-05T12:43:03.172Z"
+    },
+    {
+      "id": "o1757076242914",
+      "productId": "p1",
+      "qty": 0,
+      "slot": "morning",
+      "deliveryDate": "2025-09-07",
+      "status": "delievred",
+      "createdAt": "2025-09-05T12:44:02.913Z"
+    },
+    {
+      "id": "o1757076271299",
+      "productId": "p1",
+      "qty": 0,
+      "slot": "morning",
+      "deliveryDate": "2025-09-07",
+      "status": "delievred",
+      "createdAt": "2025-09-05T12:44:31.298Z"
+    },
+    {
+      "id": "o1757076286593",
+      "productId": "p1",
+      "qty": 0,
+      "slot": "morning",
+      "deliveryDate": "2025-09-07",
+      "status": "delievred",
+      "createdAt": "2025-09-05T12:44:46.592Z"
+    },
+    {
+      "id": "o1757076315782",
+      "productId": "p1",
+      "qty": 0,
+      "slot": "morning",
+      "deliveryDate": "2025-09-07",
+      "status": "delievred",
+      "createdAt": "2025-09-05T12:45:15.781Z"
+    },
+    {
+      "id": "o1757076341642",
+      "productId": "p1",
+      "qty": 0,
+      "slot": "morning",
+      "deliveryDate": "2025-09-07",
+      "status": "delievred",
+      "createdAt": "2025-09-05T12:45:41.641Z"
+    }
+  ]
+}
