@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="orders.AutomatePlaceOrderTest">
+      <class name="orders.AutomateOrdersTest">
         <methods>
+          <include name="orderAfterCutoff_shiftsByTwoDays"/>
+          <include name="beforeEachTest"/>
           <include name="beforeClass"/>
-          <include name="placeOrder_success"/>
-          <include name="placeOrder_qtyZero"/>
         </methods>
-      </class> <!-- orders.AutomatePlaceOrderTest -->
+      </class> <!-- orders.AutomateOrdersTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
