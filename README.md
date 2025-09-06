@@ -19,8 +19,7 @@
 2. navigate to orders and products package
 3. execute the test cases
 
-
-  #QA Deliverables
+ # QA Deliverables
 1.Test Cases Document
 2.Test Strategy Document
 3.Bug Evidence Document
