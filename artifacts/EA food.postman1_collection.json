@@ -1,0 +1,183 @@
+{
+	"info": {
+		"_postman_id": "f0aea156-864c-4a9d-bee6-bdfcfcbb4a13",
+		"name": "EA food",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39865663"
+	},
+	"item": [
+		{
+			"name": "update stock",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"updates\":[\r\n\r\n    {\r\n\r\n        \"productId\": \"p1\",\r\n\r\n        \"newStock\": 3\r\n\r\n    },\r\n\r\n    {\r\n\r\n        \"productId\": \"p2\",\r\n\r\n        \"newStock\": 1\r\n\r\n    },\r\n\r\n    {\r\n\r\n        \"productId\": \"p3\",\r\n\r\n        \"newStock\": 4\r\n\r\n    },\r\n\r\n    {\r\n\r\n        \"productId\": \"p4\",\r\n\r\n        \"newStock\": 2\r\n\r\n    },\r\n\r\n    {\r\n\r\n        \"productId\": \"p5\",\r\n\r\n        \"newStock\": 30\r\n\r\n    },\r\n\r\n    {\r\n\r\n        \"productId\": \"p6\",\r\n\r\n        \"newStock\": 12\r\n\r\n    },\r\n\r\n    {\r\n\r\n        \"productId\": \"p7\",\r\n\r\n        \"newStock\": 8\r\n\r\n    },\r\n\r\n    {\r\n\r\n        \"productId\": \"p8\",\r\n\r\n        \"newStock\": 2\r\n\r\n    },\r\n\r\n    {\r\n\r\n        \"productId\": \"p9\",\r\n\r\n        \"newStock\": 6\r\n\r\n    },\r\n\r\n    {\r\n\r\n        \"productId\": \"p10\",\r\n\r\n        \"newStock\": 8\r\n\r\n    }\r\n\r\n]\r\n \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/ops/update-stock",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"ops",
+						"update-stock"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "place a orders",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "x-now",
+						"value": "2025-09-06T18:0:00+05:30",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"productId\": \"p1\",\r\n  \"qty\": 7,\r\n  \"slot\": \"morning\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/orders",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cancel order (restore stock)",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5000/orders/:id",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"orders",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "o1757139895174"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ops endpoint to bulk update stock",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/ops/update-stock?id=p9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"ops",
+						"update-stock"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "p9"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
