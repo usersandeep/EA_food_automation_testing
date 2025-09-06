@@ -20,8 +20,8 @@
 3. execute the test cases
 
  # QA Deliverables
-1.Test Cases Document
-2.Test Strategy Document
-3.Bug Evidence Document
-4.Postman Collection 
+1. Test Cases Document
+2. Test Strategy Document
+3 .Bug Evidence Document
+4 .Postman Collection 
 
